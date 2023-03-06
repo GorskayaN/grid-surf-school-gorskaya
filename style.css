@@ -1,0 +1,90 @@
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box
+}
+
+html{
+  height: 100%;
+}
+body{
+  background-color: #FFFFFF;
+}
+.nav{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  justify-content: center;
+}
+.header {
+   background-image: url('assets/fon_wawe.png');
+   background-repeat: no-repeat;
+   background-size:contain;
+   display: grid;
+   justify-content: center;
+}
+.current{
+margin: 10px;
+padding:  15px;
+text-decoration: none;
+font-family: 'raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+color: #0D302C;
+ margin-top: 0px;
+}
+
+.current:hover {
+  background:rgba(255,255,255, 0.5);}
+.wawe {
+  /*position: absolute;*/
+width: 654px;
+height: 235px;
+left: 654px;
+top: 341px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 200px;
+line-height: 235px;
+display: flex;
+/*align-items: flex-end;*/
+letter-spacing: 0.6px;
+text-align: center;
+
+color: #0D302C;
+}
+.school{
+font-family: 'Roboto Condensed';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+letter-spacing: 0.6px;
+text-align: center;
+color: #000000;
+}
+.board{
+  justify-content: center;
+}
+footer{
+  background-color: #00B2A0;
+}
+.container{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  align-items: start;
+  justify-items: stretch;
+}
+.cell{
+  padding: 10px;
+  color: #0D302C;
+  background-color: rgba(0, 178, 160, 0.1);;
+}
+h1{
+  color: #0D302C;
+  text-align: center;
+}
