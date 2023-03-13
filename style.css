@@ -20,6 +20,7 @@ body{
    background-size:contain;
    display: grid;
    justify-content: center;
+
 }
 .current{
 margin: 10px;
@@ -68,8 +69,57 @@ color: #000000;
 .board{
   justify-content: center;
 }
-footer{
+
+.container{
+  /*display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  align-items: start;
+  justify-items: stretch;*/
+  margin: 10px;
+}
+.cell{
+  padding: 10px;
+  color: #0D302C;
+  background-color: rgba(0, 178, 160, 0.1);;
+}*/
+h1{
+  color: #0D302C;
+  text-align: center;
+}
+/*.pictcontainer {
+    display: grid;
+    grid-gap: 5px;
+    /*grid-template-columns: repeat(auto-fit, minmax(250x, 1fr));
+    grid-template-rows: repeat(2, 280px);*/
+   /* grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 280px 280px;
+    margin: 10px;
+}*/
+.gal-1{
+  grid-area: 1/1/2/3;
+}
+.gal-6{
+  grid-area: 2/3/3/5;
+}
+.gallery {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+@media screen and (min-width: 600px) {
+.footer{
   background-color: #00B2A0;
+}
+.pictcontainer {
+    display: grid;
+    grid-gap: 5px;
+    /*grid-template-columns: repeat(auto-fit, minmax(250x, 1fr));
+    grid-template-rows: repeat(2, 280px);*/
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 280px 280px;
+    margin: 10px;
 }
 .container{
   display:grid;
@@ -78,13 +128,17 @@ footer{
   grid-gap: 20px;
   align-items: start;
   justify-items: stretch;
+  margin: 10px;
+
 }
 .cell{
   padding: 10px;
   color: #0D302C;
-  background-color: rgba(0, 178, 160, 0.1);;
+  background-color: rgba(0, 178, 160, 0.1);
+  margin: 10px;
 }
 h1{
   color: #0D302C;
   text-align: center;
+}
 }
